@@ -1,6 +1,6 @@
 
 /* comment in css is different than html */
-
+body {overflow-x: hidden;}
 
 html, body {
 	font-family: Verdana, sans-serif;
