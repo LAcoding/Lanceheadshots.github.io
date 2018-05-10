@@ -10,5 +10,39 @@ html, body {
 
 html {box-sizing: border-box;}
 
+/* Nav bar */
+
+.ss-top {top: 0;}
+
+.ss-Nav-top, .ss-bottom {
+	position: fixed;
+	width: 100%;
+	z-index: 1;
+}
+.ss-white, .ss-hover-white: hover {
+	color: #000 !important;
+	background-color: #000 !important;
+}
+.ss-padding {
+	padding: 8px 16px !important;
+	padding-top: 8px;
+	padding-right: 16px;
+	padding-bottom: 8px;
+	padding-left: 16px;
+}
+
+.ss-card, .ss-card-2 {
+	box-shadow: 0 2px 5px 0 rgba(0,0,0,0.16)
+	0 2px 10px 0 rgba(0,0,0,0.12); 
+}
+.ss-bar {
+	width: 100%;
+	overflow-x: hidden;
+	overflow-y: hidden;
+}
+.ss-wide {
+	letter-spacing: 4px;
+}
 
 
+/* Header */
