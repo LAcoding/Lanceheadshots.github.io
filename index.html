@@ -20,13 +20,119 @@
 	<!-- Navbar (sit on top) -->
 	<div class="ss-top">
 		<div class="ss-bar ss-white ss-wide ss-padding ss-card">
-			<!--Left off here (::before)(<a .......-->
+			<a href="#home" class="ss-bar-item ss-button"><b>Headshots</b> by Lance</a>
+			 <!-- Float links to the right. Hide them on small screens -->
+    		<div class="ss-right ss-hide-small">
+      			<a href="#projects" class="ss-bar-item ss-button">Projects</a>
+      			<a href="#about" class="ss-bar-item ss-button">About</a>
+      			<a href="#contact" class="ss-bar-item ss-button">Contact</a>
+    		</div>
 		</div>
-		
 	</div>
 
-	<!-- Header with a photo -->
+	<!-- Header -->
+<header class="ss-display-container ss-content ss-wide" style="max-width:1500px;" id="home">
+  <img class="ss-image" src="images/AppleWatch2.jpg" alt="Headshots" width="1500" height="800">
+  <div class="ss-display-middle ss-margin-top ss-center">
+    <h1 class="ss-xxlarge ss-text-white"><span class="ss-padding ss-black ss-opacity-min"><b>Headshots</b></span> <span class="ss-hide-small ss-text-light-grey">by Lance</span></h1>
+  </div>
+</header>
 
+<!-- Page content -->
+<div class="ss-content ss-padding" style="max-width:1564px">
+
+	  <!-- Project Section -->
+  <div class="ss-container ss-padding-32" id="projects">
+    <h3 class="ss-border-bottom ss-border-light-grey ss-padding-16">Projects</h3>
+  </div>
+
+  <div class="ss-row-padding">
+    <div class="ss-col l3 m6 ss-margin-bottom">
+      <div class="ss-display-container">
+        <div class="ss-display-topleft ss-black ss-padding">Summer House</div>
+        <img src="/w3images/house5.jpg" alt="House" style="width:100%">
+      </div>
+    </div>
+    <div class="ss-col l3 m6 ss-margin-bottom">
+      <div class="ss-display-container">
+        <div class="ss-display-topleft ss-black ss-padding">Brick House</div>
+        <img src="/w3images/house2.jpg" alt="House" style="width:100%">
+      </div>
+    </div>
+    <div class="ss-col l3 m6 ss-margin-bottom">
+      <div class="ss-display-container">
+        <div class="ss-display-topleft ss-black ss-padding">Renovated</div>
+        <img src="/w3images/house3.jpg" alt="House" style="width:100%">
+      </div>
+    </div>
+    <div class="ss-col l3 m6 ss-margin-bottom">
+      <div class="ss-display-container">
+        <div class="ss-display-topleft ss-black ss-padding">Barn House</div>
+        <img src="/w3images/house4.jpg" alt="House" style="width:100%">
+      </div>
+    </div>
+  </div>
+
+  <div class="ss-row-padding">
+    <div class="ss-col l3 m6 ss-margin-bottom">
+      <div class="ss-display-container">
+        <div class="ss-display-topleft ss-black ss-padding">Summer House</div>
+        <img src="/w3images/house2.jpg" alt="House" style="width:99%">
+      </div>
+    </div>
+    <div class="ss-col l3 m6 ss-margin-bottom">
+      <div class="ss-display-container">
+        <div class="ss-display-topleft ss-black ss-padding">Brick House</div>
+        <img src="/w3images/house5.jpg" alt="House" style="width:99%">
+      </div>
+    </div>
+    <div class="ss-col l3 m6 ss-margin-bottom">
+      <div class="ss-display-container">
+        <div class="ss-display-topleft ss-black ss-padding">Renovated</div>
+        <img src="/w3images/house4.jpg" alt="House" style="width:99%">
+      </div>
+    </div>
+    <div class="ss-col l3 m6 ss-margin-bottom">
+      <div class="ss-display-container">
+        <div class="ss-display-topleft ss-black ss-padding">Barn House</div>
+        <img src="/w3images/house3.jpg" alt="House" style="width:99%">
+      </div>
+    </div>
+  </div>
+
+  <!-- About Section -->
+  <div class="ss-container ss-padding-32" id="about">
+    <h3 class="ss-border-bottom ss-border-light-grey ss-padding-16">About</h3>
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Excepteur sint
+      occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
+      laboris nisi ut aliquip ex ea commodo consequat.
+    </p>
+  </div>
+
+  <div class="ss-row-padding ss-grayscale">
+    <div class="ss-col l3 m6 ss-margin-bottom">
+      <img src="/w3images/team2.jpg" alt="Lance" style="width:100%">
+      <h3>Lance Seymour</h3>
+      <p class="ss-opacity">CEO & Founder</p>
+      <p>Phasellus eget enim eu lectus faucibus vestibulum. Suspendisse sodales pellentesque elementum.</p>
+      <p><button class="ss-button ss-light-grey ss-block">Contact</button></p>
+    </div>
+  </div>
+
+  <!-- Contact Section -->
+  <div class="ss-container ss-padding-32" id="contact">
+    <h3 class="ss-border-bottom ss-border-light-grey ss-padding-16">Contact</h3>
+    <p>Lets get in touch and talk about your next project.</p>
+    <form action="/action_page.php" target="_blank">
+      <input class="ss-input ss-border" type="text" placeholder="Name" required name="Name">
+      <input class="ss-input ss-section ss-border" type="text" placeholder="Email" required name="Email">
+      <input class="ss-input ss-section ss-border" type="text" placeholder="Subject" required name="Subject">
+      <input class="ss-input ss-section ss-border" type="text" placeholder="Comment" required name="Comment">
+      <button class="ss-button ss-black ss-section" type="submit">
+        <i class="fa fa-paper-plane"></i> SEND MESSAGE
+      </button>
+    </form>
+  </div>
 
 	
 	<br>
@@ -53,6 +159,12 @@
   <p>All content and graphics on this website are the property of the company: SeymourMultiMedia, LLC</p>
   <p>Represented by: Wilsons Legal Group P.C.</p>
 </details>
+
+
+
+<footer class="ss-center ss-black ss-padding-16">
+  <p>Powered by <a href="https://www.w3schools.com/w3css/default.asp" title="W3.CSS" target="_blank" class="ss-hover-text-green">w3.css</a></p>
+</footer>
 
 </body>
 
